@@ -6,12 +6,17 @@ namespace DigitalInnovationOnePriemeiro
     {
         static void Main(string[] args)
         {
-            int numeroDeVezes = 5;
+            int  n;
 
-            for(int i=0; i<numeroDeVezes; i++)
-            {
-                Console.WriteLine($"Começando nessa porra, não manjo nenhuma linguagem {i+1}");
-            }
+            Console.WriteLine("Criar matriz quadrada");
+            Console.WriteLine("-----------------------");
+
+            Console.WriteLine("Digite um valor para criar a matriz: ");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            int [,]mat = new int [n,n];
+
+            
         }
     }
 }

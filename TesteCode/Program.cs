@@ -6,11 +6,9 @@ namespace TesteCode
     {
         public static void Main(string[] args)
         {
-
             inicio();
 
             var opcaoUsuario = menuInput();
-
             int [] valores = new int[0];
             bool verificaVetor = false;
             int aux = 0;
@@ -41,7 +39,7 @@ namespace TesteCode
 
                         break;
                     default:
-                        Console.WriteLine("Digite uma opção valida");
+                        Console.WriteLine("Opção invalida\nPor favor, digite uma opção valida");
                         break;
                 }
             opcaoUsuario = menuInput(); 
@@ -50,7 +48,6 @@ namespace TesteCode
             encerrar();
 
         }
-
 
         public static void inicio()
         {
