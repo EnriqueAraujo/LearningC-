@@ -1,0 +1,11 @@
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\obj\Debug\netcoreapp3.1\TesteCode.csprojAssemblyReference.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\obj\Debug\netcoreapp3.1\TesteCode.AssemblyInfoInputs.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\obj\Debug\netcoreapp3.1\TesteCode.AssemblyInfo.cs
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.exe
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.deps.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.runtimeconfig.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.runtimeconfig.dev.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.dll
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\bin\Debug\netcoreapp3.1\TesteCode.pdb
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\obj\Debug\netcoreapp3.1\TesteCode.dll
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\TesteCode\obj\Debug\netcoreapp3.1\TesteCode.pdb

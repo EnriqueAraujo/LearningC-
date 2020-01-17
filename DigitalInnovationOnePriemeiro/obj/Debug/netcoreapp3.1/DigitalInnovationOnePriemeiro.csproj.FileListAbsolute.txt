@@ -1,0 +1,11 @@
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.exe
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.deps.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.runtimeconfig.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.runtimeconfig.dev.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.dll
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\bin\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.pdb
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\obj\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.csprojAssemblyReference.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\obj\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.AssemblyInfoInputs.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\obj\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.AssemblyInfo.cs
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\obj\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.dll
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\DigitalInnovationOnePriemeiro\obj\Debug\netcoreapp3.1\DigitalInnovationOnePriemeiro.pdb
