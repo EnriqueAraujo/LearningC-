@@ -6,16 +6,14 @@ namespace TesteCode
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------------------------------------");
-            Console.WriteLine("Organizador de vetor");
-            Console.WriteLine("-------------------------------------------");
+
+            inicio();
 
             var opcaoUsuario = menuInput();
 
             int [] valores = new int[0];
-            int aux = 0;
             bool verificaVetor = false;
+            int aux = 0;
 
             //mantém a aplicação rodando até o usuario sair
             while (opcaoUsuario.ToUpper() != "X")
@@ -29,52 +27,17 @@ namespace TesteCode
                         break;
                     case "2":
                         // Boble sort crescente
-                        validaVetor(ref valores, ref verificaVetor);
-
-                        for (int i=0; i < valores.Length; i++)
-                        {
-                            for (int j=i+1; j < valores.Length; j++)
-                            {
-                                if (valores[i] > valores[j])
-                                {
-                                aux = valores[i];
-                                valores[i] = valores[j];
-                                valores[j] = aux; 
-                                }
-                            }
-                        }
-
-                        finalizar();
+                        boobleSort(ref valores, ref verificaVetor, ref aux);
     
                         break;
                     case "3":
                         //Boble sort decrescente
-                        validaVetor(ref valores, ref verificaVetor);
-
-                        for (int i=0; i < valores.Length; i++)
-                        {
-                            for (int j=i+1; j < valores.Length; j++)
-                            {
-                                if (valores[i] < valores[j])
-                                {
-                                    aux = valores[i];
-                                    valores[i] = valores[j];
-                                    valores[j] = aux; 
-                                }
-                            }
-                        }
-                        finalizar();
+                        boobleSortInverso(ref valores, ref verificaVetor, ref aux);
 
                         break;
                     case "4":
                         //Printar vetor
-                        validaVetor(ref valores, ref verificaVetor);
-
-                        for(int i=0; i < valores.Length; i++)
-                        {
-                            Console.WriteLine(valores[i]);
-                        }
-                        finalizar();
+                        printaVetor(ref valores, ref verificaVetor);
 
                         break;
                     default:
@@ -88,13 +51,23 @@ namespace TesteCode
 
         }
 
+
+        public static void inicio()
+        {
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("Organizador de vetor");
+            Console.WriteLine("-------------------------------------------");
+        }
+
+
          public static  string menuInput()
         {
             //Printa menu e captura input do usuario
             Console.WriteLine("\n-------------------------------------------");
             Console.WriteLine("Selecione uma opção");
             Console.WriteLine("-------------------------------------------");
-            Console.WriteLine("1- Carregar vetor\n 2- Ordernar vetor em ordem crescente\n 3- Ordernar vetor em ordem decrescente\n 4- Exibir vetor\n X- Sair");
+            Console.WriteLine("1- Carregar vetor\n2- Ordernar vetor em ordem crescente\n3- Ordernar vetor em ordem decrescente\n4- Exibir vetor\nX- Sair");
             Console.WriteLine("-------------------------------------------\n");
 
             string opcaoUsuario = Console.ReadLine();
@@ -120,35 +93,87 @@ namespace TesteCode
                 finalizar();
         }
 
-        public static void 
+        public static void boobleSort(ref int[] valores, ref bool verificador, ref int aux)
+        {
+            validaVetor(ref valores, ref verificador);
+
+            aux = 0;
+
+            for (int i=0; i < valores.Length; i++)
+            {
+                for (int j=i+1; j < valores.Length; j++)
+                {
+                    if (valores[i] > valores[j])
+                    {
+                    aux = valores[i];
+                    valores[i] = valores[j];
+                    valores[j] = aux; 
+                    }
+                }
+            }
+
+            finalizar();
+        } 
+
+        public static void boobleSortInverso(ref int[] valores, ref bool verificador, ref int aux)
+        {
+
+            validaVetor(ref valores, ref verificador);
+
+            aux = 0;
+
+            for (int i=0; i < valores.Length; i++)
+            {
+                for (int j=i+1; j < valores.Length; j++)
+                {
+                    if (valores[i] < valores[j])
+                    {
+                        aux = valores[i];
+                        valores[i] = valores[j];
+                        valores[j] = aux; 
+                    }
+                }
+            }
+
+            finalizar();
+
+        }
+
+        public static void printaVetor(ref int[] valores, ref bool verificador)
+        {
+
+            validaVetor(ref valores, ref verificador);
+
+            for(int i=0; i < valores.Length; i++)
+            {
+                Console.WriteLine(valores[i]);
+            }
+
+            finalizar();
+        }
 
         public static void validaVetor(ref int[] valores, ref bool verificaVetor)
         {
            if (!verificaVetor)
                 {
-                    Console.WriteLine("Vetor não inicializado, inicializando...");
+                    Console.WriteLine("Vetor não inicializado, inicializando...\n");
                     carregarVetor(ref valores, ref verificaVetor);
                 }
         }
 
         public static void finalizar()
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("\n-------------------------------------------");
             Console.WriteLine("Operação Realizada com Sucesso!!");
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------\n");
         }
 
         public static void encerrar()
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------------------------------------");
-            Console.WriteLine("Programa Encerrado");
-            Console.WriteLine();
+            Console.WriteLine("\n-------------------------------------------");
+            Console.WriteLine("Programa Encerrado\n");
             Console.WriteLine("Obrigado por utilizar!!");
-            Console.WriteLine("-------------------------------------------");
-            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------\n");
         }
         
     }
