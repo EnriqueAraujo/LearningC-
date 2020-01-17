@@ -39,6 +39,7 @@ namespace TesteCode
 
                         break;
                     default:
+                        //Mostra mensagem de erro
                         Console.WriteLine("Opção invalida\nPor favor, digite uma opção valida");
                         break;
                 }
