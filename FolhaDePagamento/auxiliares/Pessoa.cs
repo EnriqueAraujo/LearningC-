@@ -15,7 +15,7 @@ namespace FolhaDePagamento.auxiliares
         public int qtdHorasExtras{
             get; set;
         }
-        public int percentHoraExtra{
+        public double percentHoraExtra{
             get; set;
         }
     }

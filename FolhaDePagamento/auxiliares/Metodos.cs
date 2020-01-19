@@ -66,14 +66,13 @@ namespace FolhaDePagamento.auxiliares
             }
         }
 
-        public static void baseCalculo(ref double salarioBrutoAux, ref double inss)
+        public static void baseCalculo(ref Pessoa cadastro, ref double salarioBrutoAux, ref double inss)
         {
             salarioBrutoAux -= inss;
-
-            salarioBrutoAux -= inss;
+            salarioBrutoAux -= (cadastro.filhos * 189.59);
         }
 
-        public static void calcIr(ref double salarioBrutoAux, ref double ir, ref double salarioLiquido, ref double deducao)
+        public static void calcIr(ref Pessoa cadastro, ref double salarioBrutoAux, ref double ir, ref double salarioLiquido, ref double deducao)
         {
 
             if (salarioBrutoAux < 1903.99)
@@ -112,6 +111,8 @@ namespace FolhaDePagamento.auxiliares
             }
                
             salarioBrutoAux -= ir;
+
+            salarioBrutoAux += (cadastro.filhos * 189.59);
 
             salarioLiquido = salarioBrutoAux;
 

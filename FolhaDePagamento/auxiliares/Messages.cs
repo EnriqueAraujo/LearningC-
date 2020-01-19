@@ -18,7 +18,7 @@ namespace FolhaDePagamento.auxiliares
             Console.WriteLine("----------------------------------------------------\n");
             Console.WriteLine("Informações do funcionario");
             Console.WriteLine("\n====================================================\n");
-            Console.WriteLine($"Nome: {cadastro.nome}\nSalario bruto: R${salarioBruto} \nValor da hora: R${valorHora} \nValor da hora extra: R${valorHoraExtraUnidade} \nValor do total de horas extras: R${valorHoraExtra} \nINSS: R${inss} \nIR: R${ir} \nSalário Líquido: R${salarioLiquido}");
+            Console.WriteLine($"Nome: {cadastro.nome}\nSalario bruto: R${salarioBruto} \nValor da hora: R${valorHora} \nValor da hora extra: R${valorHoraExtraUnidade} \nValor total de horas extras: R${valorHoraExtra} \nINSS: R${inss} \nIR: R${ir} \nSalário Líquido: R${salarioLiquido}");
             Console.WriteLine("\n====================================================\n");
          }
     }

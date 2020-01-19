@@ -40,9 +40,9 @@ namespace FolhaDePagamento
 
                 Metodos.calcInss(ref salarioBrutoAux, ref inss); 
 
-                Metodos.baseCalculo(ref salarioBrutoAux, ref inss);
+                Metodos.baseCalculo(ref cadastro, ref salarioBrutoAux, ref inss);
 
-                Metodos.calcIr(ref salarioBrutoAux, ref ir, ref salarioLiquido, ref deducao);
+                Metodos.calcIr(ref cadastro, ref salarioBrutoAux, ref ir, ref salarioLiquido, ref deducao);
 
                 Messages.operacaoRealizada(ref salarioBruto, ref valorHora, ref valorHoraExtraUnidade, ref valorHoraExtra, ref inss, ref ir, ref salarioLiquido, ref cadastro);
             }
