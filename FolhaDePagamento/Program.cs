@@ -22,18 +22,18 @@ namespace FolhaDePagamento
 
             Console.WriteLine("Digite a quantidade de folhas a serem calculadas");
             qtdCadastros = Convert.ToInt32(Console.ReadLine()); 
-            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine("\n====================================================\n");
 
             Pessoa[] qtdPessoas = new Pessoa[qtdCadastros];
 
 
             for (int i = 0; i < qtdCadastros; i++)
             {
-                string nome;
 
                 Console.WriteLine("Digite o nome do funcionário");
-                nome = Console.ReadLine();
                 Pessoa cadastro = new Pessoa();
+                cadastro.nome = Console.ReadLine();
+                Console.WriteLine("\n====================================================\n");
                 qtdPessoas[i] = cadastro;
 
                 Metodos.coletarInformações(ref cadastro, ref i, ref valorHora, ref valorHoraExtra, ref salarioBruto, ref salarioBrutoAux, ref valorHoraExtraUnidade);
@@ -44,7 +44,7 @@ namespace FolhaDePagamento
 
                 Metodos.calcIr(ref salarioBrutoAux, ref ir, ref salarioLiquido, ref deducao);
 
-                Messages.operacaoRealizada(ref salarioBrutoAux, ref valorHora, ref valorHoraExtraUnidade, ref valorHoraExtra, ref inss, ref ir, ref salarioLiquido);
+                Messages.operacaoRealizada(ref salarioBruto, ref valorHora, ref valorHoraExtraUnidade, ref valorHoraExtra, ref inss, ref ir, ref salarioLiquido, ref cadastro);
             }
 
         }

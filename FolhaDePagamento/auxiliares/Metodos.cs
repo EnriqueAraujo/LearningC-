@@ -16,23 +16,26 @@ namespace FolhaDePagamento.auxiliares
         public static void coletarInformações(ref Pessoa cadastro, ref int i, ref double valorHora, ref double valorHoraExtra, ref double salarioBruto, ref double salarioBrutoAux, ref double valorHoraExtraUnidade)
         {
 
-            Console.WriteLine($"Digite o salário do {cadastro.nome} ° funcionário");
+            Console.WriteLine($"Informe o salário de {cadastro.nome}");
             cadastro.salario = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("\n====================================================\n");
 
             valorHora = (cadastro.salario/220);
 
             Console.WriteLine("Informe a quantidade de filhos do funcionário");
             cadastro.filhos = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n====================================================\n");
 
             Console.WriteLine("Informa a quantidade de horas extras");
             cadastro.qtdHorasExtras = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n====================================================\n");
 
-            Console.WriteLine("Digite a porcentagem do valor da hora extra, em %");
+            Console.WriteLine("\nDigite a porcentagem do valor da hora extra, em %");
             cadastro.percentHoraExtra = Convert.ToInt32(Console.ReadLine());
             cadastro.percentHoraExtra = (1 + (cadastro.percentHoraExtra / 100));
+            valorHoraExtraUnidade = (valorHora * cadastro.percentHoraExtra);
             valorHoraExtra = ((valorHora * cadastro.percentHoraExtra) * cadastro.qtdHorasExtras);
 
-            valorHoraExtraUnidade = (valorHora * cadastro.percentHoraExtra);
 
             salarioBruto = (cadastro.salario + valorHoraExtra);
 
