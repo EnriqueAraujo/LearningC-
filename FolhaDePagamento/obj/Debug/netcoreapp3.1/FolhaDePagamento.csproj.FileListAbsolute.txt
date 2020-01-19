@@ -1,0 +1,14 @@
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\Folha de Pagamento\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.csprojAssemblyReference.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\Folha de Pagamento\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.AssemblyInfoInputs.cache
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\Folha de Pagamento\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.AssemblyInfo.cs
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.exe
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.deps.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.runtimeconfig.json
+C:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.runtimeconfig.dev.json
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.dll
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\bin\Debug\netcoreapp3.1\FolhaDePagamento.pdb
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.csprojAssemblyReference.cache
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.AssemblyInfoInputs.cache
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.AssemblyInfo.cs
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.dll
+c:\Users\gilbe\OneDrive - Fatec Centro Paula Souza\Ferias\C#\FolhaDePagamento\obj\Debug\netcoreapp3.1\FolhaDePagamento.pdb
